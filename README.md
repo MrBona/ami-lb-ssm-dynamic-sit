@@ -19,7 +19,7 @@ Hosting a Dynamic Website that involves AMI, LB and SSM
 13. Create Security Group (http and https)
 14. Create Target Group -> Register Target
 15. Select the two Servers (EC2 Instances)
-
+#### For Confiremation Purpose, Significantly Differentiat the Two Servers Using Session Manager to Access the Sites and Edit each of the site code.
 
 ![ami-lb-ssm-dynamic-sit_1_role](https://user-images.githubusercontent.com/16262170/194515978-35ff369b-3828-4bc1-b878-f025f4591bf9.jpg)
 ![ami-lb-ssm-dynamic-sit_2](https://user-images.githubusercontent.com/16262170/194515998-e8a247bb-7708-4773-854d-60db058a112b.jpg)
