@@ -5,9 +5,21 @@ Hosting a Dynamic Website that involves AMI, LB and SSM
 2. Create S3 Bucket and Upload Website Files
 3. Create EC2 Instance and Remoting into Server Using Bash Script Code in Session Manager 
 4. Copy the site link and view the site on Browser
-  #### Create AMI
+#### Create AMI
 5. Click on the Server (EC2 Instance) -> Click on Action -> Click Image Template -> Click Create Image
 6. Enter Name and Description
+#### Lunch Instance from AMI
+7. Create Second Server (EC2 Instance)
+8. Choose the Image to Use
+9. Click on Lunch
+10. Configure Instance
+#### Create Load Balancer
+11. Click on Load Balancer From the Left side
+12. Configure: Internet Facing, Mark all the Subnet
+13. Create Security Group (http and https)
+14. Create Target Group -> Register Target
+15. Select the two Servers (EC2 Instances)
+
 
 ![ami-lb-ssm-dynamic-sit_1_role](https://user-images.githubusercontent.com/16262170/194515978-35ff369b-3828-4bc1-b878-f025f4591bf9.jpg)
 ![ami-lb-ssm-dynamic-sit_2](https://user-images.githubusercontent.com/16262170/194515998-e8a247bb-7708-4773-854d-60db058a112b.jpg)
